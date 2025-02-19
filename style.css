@@ -2558,6 +2558,12 @@ select.mobile-device {
 	font-weight: 500;
 }
 
+@media (width < 400px){
+	#chi-siamo .message-box .btn-light{
+		padding: 13px !important;
+	}
+}
+
 .btn-dark {
     padding: 13px 40px;
     font-size: 18px;
